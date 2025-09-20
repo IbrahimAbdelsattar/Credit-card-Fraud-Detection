@@ -3,54 +3,55 @@ import pickle
 import numpy as np
 import pandas as pd
 
-# Load the trained model
+# Load trained model
 with open("credit_card_fraud.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.set_page_config(page_title="Fraud Detection System", page_icon="💳", layout="wide")
 
-st.title("💳 Fraud Detection System")
-st.write("This app predicts whether a transaction is **Fraudulent** or **Legitimate** using an XGBoost model.")
+# Title
+st.title("💳 Credit Card Fraud Detection")
+st.markdown(
+    """
+    This app uses a trained **XGBoost model** on the **2023 Credit Card Fraud Dataset**  
+    to predict whether a transaction is **Fraudulent (1)** or **Legitimate (0)**.  
+    """
+)
 
-# Sidebar for user input
-st.sidebar.header("Transaction Features")
+# --- Input Section ---
+st.subheader("📝 Enter Transaction Features")
 
-def user_input_features():
-    # Example features, adjust based on your dataset
-    amount = st.sidebar.number_input("Transaction Amount", min_value=0.0, max_value=100000.0, value=100.0)
-    oldbalanceOrg = st.sidebar.number_input("Old Balance (Origin)", min_value=0.0, value=500.0)
-    newbalanceOrg = st.sidebar.number_input("New Balance (Origin)", min_value=0.0, value=400.0)
-    oldbalanceDest = st.sidebar.number_input("Old Balance (Destination)", min_value=0.0, value=0.0)
-    newbalanceDest = st.sidebar.number_input("New Balance (Destination)", min_value=0.0, value=100.0)
-    transaction_type = st.sidebar.selectbox("Transaction Type", ["PAYMENT", "TRANSFER", "CASH_OUT", "DEBIT", "CASH_IN"])
+with st.form("input_form"):
+    cols = st.columns(3)
+    input_data = {}
 
-    # Encode categorical (simple encoding, replace with actual preprocessing if needed)
-    type_map = {"PAYMENT": 0, "TRANSFER": 1, "CASH_OUT": 2, "DEBIT": 3, "CASH_IN": 4}
-    transaction_type_encoded = type_map[transaction_type]
+    # Define features (must match training data)
+    features = [f"V{i}" for i in range(1, 29)] + ["Amount"]
 
-    features = {
-        "amount": amount,
-        "oldbalanceOrg": oldbalanceOrg,
-        "newbalanceOrg": newbalanceOrg,
-        "oldbalanceDest": oldbalanceDest,
-        "newbalanceDest": newbalanceDest,
-        "type": transaction_type_encoded
-    }
+    for idx, feature in enumerate(features):
+        col = cols[idx % 3]
+        input_data[feature] = col.number_input(
+            f"{feature}", 
+            value=0.0, 
+            step=0.01, 
+            format="%.4f"
+        )
 
-    return pd.DataFrame([features])
+    submitted = st.form_submit_button("🔍 Predict Fraud")
 
-# Get user input
-input_df = user_input_features()
+# --- Prediction ---
+if submitted:
+    # Convert input to DataFrame with exact column order
+    input_df = pd.DataFrame([[input_data[f] for f in features]], columns=features)
 
-st.subheader("🔎 Transaction Details")
-st.write(input_df)
+    st.subheader("📊 Transaction Details")
+    st.write(input_df)
 
-# Make Prediction
-if st.button("Predict Fraud"):
+    # Make prediction
     prediction = model.predict(input_df)
     prediction_proba = model.predict_proba(input_df)
 
     if prediction[0] == 1:
-        st.error(f"⚠️ Fraudulent Transaction Detected with probability {prediction_proba[0][1]:.2f}")
+        st.error(f"⚠️ Fraudulent Transaction Detected with probability {prediction_proba[0][1]:.2%}")
     else:
-        st.success(f"✅ Legitimate Transaction with probability {prediction_proba[0][0]:.2f}")
+        st.success(f"✅ Legitimate Transaction with probability {prediction_proba[0][0]:.2%}")
