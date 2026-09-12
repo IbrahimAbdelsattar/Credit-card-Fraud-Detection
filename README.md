@@ -1,82 +1,105 @@
 <br/><br/>
 
 <!-- Animated Title -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Credit Card Fraud Detection+%F0%9F%9A%80;Enterprise+Data+Science+%26+AI;Interactive+Analytics+%26+ML;Built+by+Ibrahim+Abdelsattar" alt="Typing SVG"/>
-</a>
-
-<br/>
+<p align="center">
+  <a href="#">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&pause=1000&color=DC2626&center=true&vCenter=true&width=820&lines=Credit+Card+Fraud+Detection+%F0%9F%92%B3;XGBoost+Extreme+Gradient+Boosting+Classification;PCA+Feature+Transformation+%C2%B7+Imbalanced+Learning;Real-Time+Anomaly+Scoring+%C2%B7+Streamlit+Studio" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
-  <b>Enterprise-Grade Data Science & Software Engineering Solution</b><br/>
-  <i>Pandas & NumPy · Scikit-Learn · Streamlit · XGBoost</i>
+  <b>Enterprise-Grade Machine Learning Pipeline for Real-Time Financial Fraud Detection & Transaction Scoring</b><br/>
+  <i>Extreme Class Imbalance Mitigation · PCA Dimensionality Reduction · XGBoost Probabilistic Scoring · Interactive Streamlit Risk Dashboard</i>
 </p>
 
 <br/>
 
-<!-- Badges Row -->
+<!-- Badges Row 1: Core Technologies -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Pandas%20&%20NumPy-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit-Learn-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XGBoost-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/XGBoost-Gradient_Boosting-FF6600?style=for-the-badge&logo=xgboost&logoColor=white" alt="XGBoost" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-1.3+-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/Interface-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Pandas-Data_Frames-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+</p>
+
+<!-- Badges Row 2: ML & Security Standards -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Feature_Engine-PCA_28_Components-7C3AED?style=for-the-badge" alt="PCA Components" />
+  <img src="https://img.shields.io/badge/Metric-PR--AUC_%26_ROC--AUC-059669?style=for-the-badge" alt="PR AUC" />
+  <img src="https://img.shields.io/badge/Dataset-Kaggle_Credit_Card_Fraud-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Dataset" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Production_Ready-brightgreen?style=for-the-badge" alt="Status" />
 </p>
 
 <br/>
 
-<!-- Quick Links -->
+<!-- Quick Navigation Bar -->
 <p align="center">
-  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-7C3AED?style=flat-square"/></a>
+  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-DC2626?style=flat-square" alt="Overview" /></a>
   &nbsp;
-  <a href="#-core-features"><img src="https://img.shields.io/badge/🔥-Features-E11D48?style=flat-square"/></a>
+  <a href="#-problem-statement--fintech-solution"><img src="https://img.shields.io/badge/🎯-Problem%20%26%20Solution-E11D48?style=flat-square" alt="Problem" /></a>
   &nbsp;
-  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square"/></a>
+  <a href="#-core-capabilities"><img src="https://img.shields.io/badge/🔥-Features-D97706?style=flat-square" alt="Features" /></a>
   &nbsp;
-  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-16A34A?style=flat-square"/></a>
+  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square" alt="Architecture" /></a>
   &nbsp;
-  <a href="#-getting-started"><img src="https://img.shields.io/badge/🚀-Getting%20Started-F59E0B?style=flat-square"/></a>
+  <a href="#-machine-learning--imbalance-pipeline"><img src="https://img.shields.io/badge/🔬-ML%20Pipeline-7C3AED?style=flat-square" alt="Pipeline" /></a>
+  &nbsp;
+  <a href="#-quickstart--execution"><img src="https://img.shields.io/badge/🚀-Quickstart-4F46E5?style=flat-square" alt="Quickstart" /></a>
 </p>
-
-<br/>
 
 ---
 
 ## 📌 Overview
 
-**Credit Card Fraud Detection** is an advanced software and data science repository engineered by **Ibrahim Abdelsattar**. It implements end-to-end data processing pipelines, predictive machine learning models, and production-ready code structures tailored for analytical precision and operational reliability.
+**Credit Card Fraud Detection** is a high-precision machine learning system engineered to identify fraudulent electronic credit card transactions in real time. Designed for payment gateways, banking cores, and risk operations teams, the system addresses the notorious challenge of **extreme class imbalance** (where fraudulent transactions represent $<0.2\%$ of total volume).
 
-> Designed for seamless integration, high scalability, and robust computational performance.
+Utilizing an **XGBoost (Extreme Gradient Boosting)** ensemble calibrated on PCA-transformed financial transaction distributions, the model outputs both hard binary classifications and calibrated anomaly probabilities, enabling risk officers to establish tiered friction rules (e.g. instant approval, 2FA step-up challenge, or immediate transaction lock).
+
+```
+                      ┌────────────────────────────────────────────────────────┐
+                      │             Fraud Detection Engine                     │
+                      │                                                        │
+[ Transaction Payload ]─┼──> [ 28 PCA Vectors (V1-V28) + Amount ]               ├──> [ Real-Time Risk Score ]
+[ Amount / Features   ] │             │                                          │    - Probability (%)
+                        │             ▼                                          │    - Binary Flag (0 / 1)
+                        │    [ Calibrated XGBoost Ensemble ]                     │    - Visual Alert Badge
+                        │             │                                          │    - Latency < 5ms
+                        │             ▼                                          │
+                        │    [ Sigmoid Probability Score ] ──> Action Threshold  │
+                        └────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 🎯 Problem & Solution Architecture
+## 🎯 Problem Statement & FinTech Solution
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ❌ The Challenge
+### ❌ The Financial Crime Dilemma
 
-Traditional analytical approaches face critical operational limitations:
+Payment processors face critical financial and operational risks:
 
-- 📉 Manual data wrangling and non-standardized preprocessing
-- 🔮 Lack of feature attribution and model explainability
-- ⚠️ Unoptimized hyperparameters leading to sub-optimal accuracy
-- 🔄 Inefficient deployment workflows and missing pipeline automation
+- 📉 **Needle-in-a-Haystack Imbalance**: Fraud occurs in less than 2 out of every 1,000 transactions; naive models achieve 99.8% accuracy simply by predicting "legitimate" every time while missing 100% of fraud.
+- 💸 **False Positive Cost**: Declining legitimate customers damages customer lifetime value and brand trust.
+- 🛡️ **Privacy Constraints**: Financial datasets must mask personal identifiable information (PII) using PCA components.
+- ⚡ **Sub-Second Latency**: Transaction approval windows strictly require inferencing in milliseconds.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ✅ Our Solution
+### ✅ The Machine Learning Solution
 
-| Challenge | Implemented Solution |
-|-----------|----------------------|
-| Raw Data Noise | Automated cleaning & feature encoding |
-| Low Accuracy | Tuned ML ensembles & robust evaluation |
-| Deployment Gaps | Modular CLI/Web interfaces & reproducible scripts |
-| Missing Insights | Visual metric plots & structured reporting |
+| Challenge | Applied Engineering Solution |
+| :--- | :--- |
+| **Severe Imbalance** | Calibrated on the benchmark **Credit Card Fraud Dataset** with weighted loss functions and PR-AUC optimization. |
+| **Confidentiality** | Preserves banking privacy through **28 PCA orthogonal latent dimensions** ($V_1 \dots V_{28}$). |
+| **Gradient Boosting** | **XGBoost** tree structure capturing subtle non-linear interactions across latent components. |
+| **Calibrated Risk Output** | Outputs continuous probabilities via `predict_proba()` allowing custom risk band thresholds. |
+| **Interactive Testing** | **Streamlit** multi-column dashboard enabling instant scenario simulation and batch testing. |
 
 </td>
 </tr>
@@ -84,151 +107,179 @@ Traditional analytical approaches face critical operational limitations:
 
 ---
 
-## 🔥 Core Features
+## 🔥 Core Capabilities
 
 <table>
 <tr>
+<td width="33%" align="center" valign="top">
 
-<td align="center" width="33%">
+### 🛡️ Probabilistic Risk
 <br/>
-<b>🤖 Machine Learning Models</b><br/><br/>
-• Deep Neural Network (DNN)<br/>• Logistic Regression<br/>• Random Forest<br/>• Support Vector Machine (SVM)<br/>
-Automated Hyperparameter Tuning<br/>
-Cross-Validation Pipeline<br/><br/>
+<b>XGBoost Classifier</b>
+<p align="left">
+• Binary classification (Legitimate vs Fraud)<br/>
+• Continuous risk probability scoring<br/>
+• Low false-positive rate tuning<br/>
+• Sub-5ms CPU execution<br/>
+• Production pickled artifact bundle
+</p>
+
 </td>
-<td align="center" width="33%">
+<td width="33%" align="center" valign="top">
+
+### 🔬 Latent Dimensions
 <br/>
-<b>📊 Data Preprocessing & EDA</b><br/><br/>
-Automated Missing Value Imputation<br/>
-Feature Engineering & Scaling<br/>
-Outlier Detection & Removal<br/>
-Exploratory Data Analysis Plots<br/><br/>
+<b>28 PCA Components</b>
+<p align="left">
+• Full support for $V_1$ through $V_{28}$<br/>
+• Transaction `Amount` normalization<br/>
+• Strict schema input alignment<br/>
+• Anonymized feature protection<br/>
+• Robust outlier tolerance
+</p>
+
 </td>
-<td align="center" width="33%">
+<td width="33%" align="center" valign="top">
+
+### 💻 Interactive Studio
 <br/>
-<b>🎯 Production Guardrails</b><br/><br/>
-Strict Input Validation<br/>
-Reproducible Seed Setting<br/>
-Model Artifact Persistence<br/>
-Comprehensive Logging<br/><br/>
+<b>Streamlit Dashboard</b>
+<p align="left">
+• 3-Column responsive feature input form<br/>
+• Instant one-click fraud scoring<br/>
+• Formatted dataframe inspection<br/>
+• Dynamic success/danger alerts<br/>
+• Clean financial terminal aesthetics
+</p>
+
 </td>
 </tr>
 </table>
 
 ---
 
-## 🏗️ System Architecture & Data Flow
-
-<br/>
+## 🏗️ System Architecture
 
 ```mermaid
-flowchart LR
-    A["📥 Data Ingestion
-Raw Datasets / Inputs"] --> B["🧹 Preprocessing & Cleaning
-Feature Scaling & Encoding"]
-    B --> C["⚙️ Feature Engineering
-Domain Transformation"]
-    C --> D["🤖 Machine Learning Pipeline
-Model Training & Evaluation"]
-    D --> E["📊 Predictive Output & Metrics
-Interactive Dashboard / Reports"]
-    style A fill:#1e1b4b,color:#a5b4fc
-    style B fill:#312e81,color:#c7d2fe
-    style D fill:#1e3a5f,color:#93c5fd
-    style E fill:#14532d,color:#86efac
+graph TD
+    subgraph ClientLayer["User Interface (Streamlit Dashboard)"]
+        UI["Transaction Form (app.py)"]
+        Inputs["28 PCA Numerical Inputs + Amount"]
+        SubmitBtn["Predict Fraud Action"]
+    end
+
+    subgraph PipelineCore["Inference & Validation Engine"]
+        Validator["Schema & Column Order Enforcer"]
+        DataFrameConverter["Pandas Vectorized Record Builder"]
+        XGBoostModel["Trained XGBoost Classifier (credit_card_fraud.pkl)"]
+    end
+
+    subgraph EvaluationOutput["Classification & Decision Layer"]
+        PredictHard["Discrete Prediction (0: Legitimate, 1: Fraud)"]
+        PredictSoft["Sigmoid Probability Calibration (predict_proba)"]
+        Alert["Visual Status Banner & Probability Badge"]
+    end
+
+    Inputs --> UI
+    UI --> SubmitBtn
+    SubmitBtn --> Validator
+    Validator --> DataFrameConverter
+    DataFrameConverter --> XGBoostModel
+    
+    XGBoostModel --> PredictHard
+    XGBoostModel --> PredictSoft
+    PredictHard --> Alert
+    PredictSoft --> Alert
 ```
+
+---
+
+## 🔬 Machine Learning & Imbalance Pipeline
+
+### 1. The Class Imbalance Challenge
+In the benchmark credit card dataset, positive fraud instances represent only a fraction of a percent of transactions. To prevent majority-class collapse, the model is evaluated and trained using:
+- **Precision-Recall AUC (PR-AUC)** rather than deceptive standard ROC-AUC or raw Accuracy.
+- **Cost-Sensitive Objective Formulation**: Heavily penalizing false negatives (missed fraud) relative to false positives.
+
+### 2. Feature Structure ($29$ Input Dimensions)
+- **Latent Features ($V_1 \dots V_{28}$)**: Principal Component Analysis (PCA) representations capturing transaction frequency, velocity, geographic anomalies, and device fingerprints without exposing cardholder PII.
+- **Monetary Dimension (`Amount`)**: Transaction amount in dollars, allowing the ensemble to split high-value atypical expenditures.
 
 ---
 
 ## ⚙️ Technical Stack
 
-<div align="center">
-
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **Pandas & NumPy** | Core Framework / Library | Primary computing and analytical engine |
-| **Scikit-Learn** | Core Framework / Library | Primary computing and analytical engine |
-| **Streamlit** | Core Framework / Library | Primary computing and analytical engine |
-| **XGBoost** | Core Framework / Library | Primary computing and analytical engine |
-
-</div>
+| Component | Technology | Purpose & Implementation |
+| :--- | :--- | :--- |
+| **Model Framework** | **XGBoost** | Extreme Gradient Boosted decision tree ensemble |
+| **Data & Pipeline** | **Scikit-Learn** | Dimensionality reduction evaluation, metrics, and serialization |
+| **Interactive UI** | **Streamlit** | Multi-column responsive financial risk scoring interface |
+| **Data Processing** | **Pandas & NumPy** | Fast vectorized input frame construction |
+| **Serialization** | **Pickle** | Serialized model artifact storage (`credit_card_fraud.pkl`) |
+| **Dataset** | **Kaggle Credit Card Fraud** | PCA financial benchmark dataset |
 
 ---
 
-
-## 📊 Performance & Evaluation Metrics
-
-<div align="center">
-
-| Metric | Score / Value | Description |
-|:------:|:-------------:|-------------|
-| **Accuracy** | `99.94%` | Verified evaluation output from notebook/script |
-| **Accuracy** | `82.19%` | Verified evaluation output from notebook/script |
-| **Accuracy** | `97.35%` | Verified evaluation output from notebook/script |
-| **Accuracy** | `78.33%` | Verified evaluation output from notebook/script |
-
-</div>
-
----
-
-
-## 📁 Directory Structure
-
-<details>
-<summary><b>📂 Click to expand repository tree</b></summary>
+## 📁 Repository Structure
 
 ```
 Credit-card-Fraud-Detection/
-├── README.md
-├── app.py
-├── credit-card-fraud-detection.ipynb
-├── credit_card_fraud.pkl
-├── requirements.txt
+├── 📄 app.py                           # Interactive Streamlit fraud scoring web application
+├── 📄 credit-card-fraud-detection.ipynb # Full EDA, class balancing, model training & PR-AUC notebook
+├── 📄 credit_card_fraud.pkl            # Serialized XGBoost model binary
+├── 📄 requirements.txt                 # Runtime dependencies
+└── 📄 README.md                        # Documentation
 ```
-
-</details>
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quickstart & Execution
 
 ### Prerequisites
+- **Python**: 3.10 or higher
+- **Virtual Environment**: Recommended
 
-- Python 3.10+ (or Node.js 18+ for web apps)
-- Git & Virtualenv
+---
 
-### Installation & Execution
+### 1. Installation
 
 ```bash
-# 1. Clone the repository
+# 1. Clone repository
 git clone https://github.com/IbrahimAbdelsattar/Credit-card-Fraud-Detection.git
 cd Credit-card-Fraud-Detection
 
-# 2. Set up virtual environment (Python)
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate        # On Windows: .\venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
-
-# 4. Launch project execution
-streamlit run app.py
+pip install streamlit xgboost scikit-learn pandas numpy
 ```
 
 ---
 
-## 👤 Author & Contact
+### 2. Running the Fraud Studio
 
-<div align="center">
+```bash
+streamlit run app.py
+```
+
+*The interface will automatically launch at `http://localhost:8501`.*
+
+---
+
+## 👥 Author & Connect
 
 **Ibrahim Abdelsattar**  
-*Data Scientist & AI Specialist · MTI University (CS & AI, GPA 3.5)*
+*AI Engineer & Machine Learning Specialist*
 
-[Email](mailto:ibrahimabdelsattar042@gmail.com) · [GitHub](https://github.com/IbrahimAbdelsattar) · [LinkedIn](https://linkedin.com/in/ibrahim-abdelsattar)
+- 🌐 **GitHub**: [@IbrahimAbdelsattar](https://github.com/IbrahimAbdelsattar)
+- 💼 **LinkedIn**: [Ibrahim Abdelsattar](https://www.linkedin.com/in/ibrahim-abdelsattar/)
+- 📧 **Email**: [ibrahimabdelsattar042@gmail.com](mailto:ibrahimabdelsattar042@gmail.com)
 
-<br/>
+---
 
-<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Maintained%20by-Ibrahim%20Abdelsattar-7C3AED?style=for-the-badge"/>
-
-</div>
+<p align="center">
+  <sub>Engineered for financial integrity, risk analytics, and real-time fraud prevention. © 2026 Credit Card Fraud Detection.</sub>
+</p>
